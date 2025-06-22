@@ -1,0 +1,12 @@
+[versions]
+gdx = "1.12.1"
+
+[libraries]
+gdx-backend-android = { group = "com.badlogicgames.gdx", name = "gdx-backend-android", version.ref = "gdx" }
+gdx-backend-lwjgl3 = { module = "com.badlogicgames.gdx:gdx-backend-lwjgl3", version.ref = "gdx" }
+gdx-platform = { group = "com.badlogicgames.gdx", name = "gdx-platform", version.ref = "gdx" }
+gdx-freetype = { group = "com.badlogicgames.gdx", name = "gdx-freetype-platform", version.ref = "gdx" }
+gdx-box2d = { group = "com.badlogicgames.gdx", name = "gdx-box2d-platform", version.ref = "gdx" }
+
+
+[plugins]
